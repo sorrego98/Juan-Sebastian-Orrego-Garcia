@@ -1,5 +1,9 @@
 # 📝 Prueba Técnica - Desarrollador Backend Semi-Senior
 
+## ⚠️ Antes de comenzar
+
+Por favor, **lee toda la prueba completa antes de empezar**. El tiempo estimado para completarla es de **2-3 horas**, pero puedes tomar hasta **24 horas** para entregarla. La entrega se realiza a través de un **Pull Request (PR)** en este repositorio.
+
 ## 🔥 Instrucciones Generales
 
 1. **Haz un fork** de este repositorio en tu cuenta de GitHub.
@@ -38,6 +42,11 @@
 - Describe cómo desplegarías esta API en **AWS ECS + RDS**.
 - Explica brevemente cómo manejarías secretos con **AWS Secrets Manager**.
 - Opcionalmente, agrega un pequeño **Terraform** para crear el RDS.
+
+### 5️⃣ CI/CD con GitHub Actions y Terraform (Opcional, suma puntos)
+
+- Crea un workflow en **GitHub Actions** para ejecutar pruebas automáticamente en cada `push` o `PR`.
+- Opcionalmente, agrega un paso en el pipeline para desplegar la API en AWS usando **Terraform**.
 
 ## ⏳ Tiempo Estimado
 
